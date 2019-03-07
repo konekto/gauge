@@ -1,0 +1,22 @@
+{
+  "name": "gauge",
+  "version": "1.0.0",
+  "description": "just a prebuild gauge container with some plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konekto/gauge.git"
+  },
+  "author": "Haithem Ble Haj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konekto/gauge/issues"
+  },
+  "homepage": "https://github.com/konekto/gauge#readme",
+  "dependencies": {
+    "taiko": "^0.6.0"
+  }
+}
