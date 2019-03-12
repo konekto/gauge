@@ -1,6 +1,6 @@
 #!/bin/bash
 
 docker login
-docker build -t gauge .
-docker tag gauge konekto/gauge:latest
-docker push konekto/gauge:latest
+docker build -t gauge-taiko .
+docker tag gauge-taiko konekto/gauge-taiko:latest
+docker push konekto/gauge-taiko:latest
