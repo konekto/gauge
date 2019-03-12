@@ -6,6 +6,8 @@ USER root
 RUN chown -R node:node /tmp && chmod 755 /gauge
 USER node
 
+RUN npm install -g @getgauge/cli
+
 WORKDIR /gauge
 
 RUN gauge telemetry off
@@ -20,6 +22,7 @@ RUN echo '{\
   }'\
   >> /gauge/manifest.json
 
+COPY env /gauge/env
 COPY package.json /gauge/package.json
 COPY package-lock.json /gauge/package-lock.json
 
