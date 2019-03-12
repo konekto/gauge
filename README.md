@@ -1,3 +1,3 @@
-# Gauge
+# Gauge's Taiko
 
-just a prebuild gauge container with some plugins
+just a prebuild gauge container with taiko and some plugins
