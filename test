@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t gauge-taiko .
+docker run -v $(pwd)/example/specs:/gauge/specs -v $(pwd)/example/tests:/gauge/tests gauge-taiko gauge run specs
